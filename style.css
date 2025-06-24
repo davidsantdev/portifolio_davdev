@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #151515;
+}
+
+.container-hello {
+    background-image: url('./fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    @media (max-width: 1024px){
+        background-image: none;
+        flex-wrap: wrap;
+        
+    }
+
+}
+
+
+.dev{
+    font-family: "Space Grotesk", sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+
+
+
+    @media (max-width: 1024px){
+        font-size: 20px;
+
+    }
+
+    @media (max-width:320px){
+
+    }
+}
+
+button{
+    font-family: "Space Grotesk", sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 80px;
+    background-color: transparent;
+    border: none; /* Remove todas as bordas padrão */
+    border-bottom: 5px solid #4ce19d; /* Aplica apenas a borda inferior */
+    color: white;
+
+
+    cursor: pointer;
+
+    @media (max-width: 1024px){
+        
+        font-size: 50px;
+
+        
+        
+        
+        
+    }
+}
+.falecmg{
+    font-family: "Space Grotesk", sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: transparent;
+    border: none; /* Remove todas as bordas padrão */
+    border-bottom: 5px solid #4ce19d; /* Aplica apenas a borda inferior */
+    color: white;
+
+
+    cursor: pointer;
+}
+
+
+
+.hello{
+    font-family: "Space Grotesk", sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 80px;
+
+    @media (max-width: 1024px){
+        font-size: 50px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+}
+
+.mobile img{
+    display: none;
+
+    @media (max-width: 1024px){
+        display: flex;
+        width: 250px;
+        margin-left: 50%;
+        
+        
+        
+    }
+}
+header{
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+
+    height: 100px;
+    
+
+    .icon a{
+        font-size: 30px;
+        color: #ffffff;
+        padding: 20px;
+    }
+
+}
+
+
+.textos{
+    margin-left: 200px;
+    width: 65%;
+    @media (max-width: 1024px){
+        
+        
+
+        width: 100%;
+        margin-left: 50px;
+        
+        
+        
+    }
+
+}
+
+.parag{
+    font-family: "Space Grotesk", sans-serif;
+    color: rgba(240, 248, 255, 0.582);
+    font-weight: 400;
+    width: 60%;
+    font-size: 20px;
+    
+
+    @media (max-width: 1024px){
+        font-size: 20px;
+        margin-left: 10px;
+        width: 100%;
+        
+
+    }
+
+
+
+}
+.fale{
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    color: rgb(240, 248, 255);
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    top: 140px;
+
+    @media (max-width: 1024px){
+        top: 0px;
+    }
+
+}
+*{
+    text-decoration: none;
+}
+.linha-2{
+    
+    background-color: #4ce19d;
+    width: 230px;
+    height: 2px;
+    position: absolute;
+    top: 71%;
+    left: 10%;
+
+    @media (max-width: 1024px){
+        
+    }
+
+}
+.container-txt{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 1024px){
+        margin-left: 7%;
+        }
+    
+    
+}
+
+
+
+
+.container-competencias{
+    width: 70%;
+    
+    margin-left:10%;
+
+    @media (max-width: 1024px){
+        margin-top: 150px;
+        width: 100%;
+        
+        
+    }
+
+}
+.linha-3{
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+    
+    
+}
+
+.container-competencias{
+    width: 90%;
+    flex-wrap: wrap;
+    z-index: 1000;
+
+    
+
+
+}
+.htmll{
+    font-family: "Space Grotesk", sans-serif;
+    color: rgb(240, 248, 255);
+    font-weight: 500;
+    font-size: 50px;
+    z-index: 1000;
+    width: 33%;
+    @media (max-width: 1327px){
+    width: 50%;
+    }
+
+
+
+}
+
+.parag-sas{
+    font-size: 30px;
+    
+
+    
+
+}
+
+
+.sass {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Space Grotesk", sans-serif;
+    color: rgb(240, 248, 255);
+    margin: 0;
+    margin-bottom: 20px; 
+    margin-top: 60px;
+
+    @media (max-width: 1327px){
+        font-size: 30px;
+    }
+}
+.parag-sas {
+    
+
+    margin: 0;
+    
+    font-size: 20px;
+    @media (max-width: 1327px){
+        font-size: 10px;
+    }
+}
+.imagem{
+    position: absolute;
+    top: 100%;
+    right: 1%;
+}
+
+.flutuar {
+  animation: flutuar 3s ease-in-out infinite;
+@media (max-width: 1327px){
+        display: none;
+    }
+
+}
+
+@keyframes flutuar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* Sobe */
+  }
+  100% {
+    transform: translateY(0); /* Volta */
+  }
+}
+
+.projetos{
+
+    display: flex;
+
+    width: 80%;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+.Proj{
+    font-family: "Space Grotesk", sans-serif;
+    color: rgb(240, 248, 255);
+    font-weight: 500;
+    font-size: 90px;
+
+}
+.name-proj{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Space Grotesk", sans-serif;
+    color: rgb(240, 248, 255);
+
+}
+
+.parag-proj{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Space Grotesk", sans-serif;
+    color: rgba(240, 248, 255, 0.747);
+    word-spacing: 10px;
+}
+.projeto{
+
+    height: 500px;
+    width: 47%;
+    gap: 20px;
+
+@media (max-width: 1327px){
+    width: 100%;
+}
+}
+.projeto img{
+    width:500px ;
+
+    @media (max-width: 1327px){
+        width: 300px;
+    }
+}
