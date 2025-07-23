@@ -17,6 +17,7 @@ body{
         background-image: none;
         flex-wrap: wrap;
         
+        height: 600px;
     }
 
 }
@@ -57,7 +58,7 @@ button{
 
     @media (max-width: 1024px){
         
-        font-size: 50px;
+        font-size: 35px;
 
         
         
@@ -77,6 +78,15 @@ button{
 
 
     cursor: pointer;
+    @media (max-width: 1024px){
+        
+        font-size: 20px;
+        border-bottom: 3px solid #4ce19d;
+        
+        
+        
+        
+    }
 }
 
 
@@ -88,25 +98,40 @@ button{
     font-size: 80px;
 
     @media (max-width: 1024px){
-        font-size: 50px;
-        margin-left: 10px;
+        font-size: 35px;
+        
         width: 100%;
+        
     }
+
+    
 
 }
 
-.mobile img{
+.mobile{
     display: none;
 
     @media (max-width: 1024px){
         display: flex;
-        width: 250px;
-        margin-left: 50%;
+        width: au;
+
+
+        
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #35ff1b;
+        height: 300px;
         
         
         
     }
+    .dav{
+    width: 200px;
+    height: 400px;
+    }
+    
 }
+
 header{
     position: fixed;
     z-index: 1000;
@@ -120,20 +145,30 @@ header{
         font-size: 30px;
         color: #ffffff;
         padding: 20px;
+        transition: all 0.3s ease;
+    }
+    .icon a:hover{
+        color: #0fe082;
     }
 
 }
 
 
 .textos{
+    margin-top: 50px;
     margin-left: 200px;
     width: 65%;
     @media (max-width: 1024px){
         
         
+        
 
         width: 100%;
-        margin-left: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+
+        height: 350px;
         
         
         
@@ -150,9 +185,9 @@ header{
     
 
     @media (max-width: 1024px){
-        font-size: 20px;
+        font-size: 14px;
         margin-left: 10px;
-        width: 100%;
+        width: 90%;
         
 
     }
@@ -212,7 +247,7 @@ header{
     margin-left:10%;
 
     @media (max-width: 1024px){
-        margin-top: 150px;
+        margin-top: 0px;
         width: 100%;
         
         
