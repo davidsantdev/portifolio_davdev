@@ -158,7 +158,9 @@ header{
     margin-top: 50px;
     margin-left: 200px;
     width: 65%;
+    
     @media (max-width: 1024px){
+        text-align: center;
         
         
         
@@ -280,6 +282,9 @@ header{
     width: 33%;
     @media (max-width: 1327px){
     width: 50%;
+    font-size: 15px;
+    width: 30%;
+    flex-wrap: wrap;
     }
 
 
