@@ -21,6 +21,11 @@ body{
     }
 
 }
+.v{
+    color: #28118f;
+    font-weight: 900;
+    font-family: "Space Grotesk", sans-serif;
+}
 
 
 .dev{
@@ -50,7 +55,7 @@ button{
     font-size: 80px;
     background-color: transparent;
     border: none; /* Remove todas as bordas padrão */
-    border-bottom: 5px solid #4ce19d; /* Aplica apenas a borda inferior */
+    border-bottom: 5px solid #28118f; /* Aplica apenas a borda inferior */
     color: white;
 
 
@@ -73,7 +78,7 @@ button{
     font-size: 40px;
     background-color: transparent;
     border: none; /* Remove todas as bordas padrão */
-    border-bottom: 5px solid #4ce19d; /* Aplica apenas a borda inferior */
+    border-bottom: 5px solid #28118f; /* Aplica apenas a borda inferior */
     color: white;
 
 
@@ -81,7 +86,7 @@ button{
     @media (max-width: 1024px){
         
         font-size: 20px;
-        border-bottom: 3px solid #4ce19d;
+        border-bottom: 3px solid #28118f;
         
         
         
@@ -119,7 +124,7 @@ button{
         
         margin-left: auto;
         margin-right: auto;
-        background-color: #35ff1b;
+        background-color: #28118f;
         height: 300px;
         
         
@@ -148,7 +153,7 @@ header{
         transition: all 0.3s ease;
     }
     .icon a:hover{
-        color: #0fe082;
+        color: #28118f;
     }
 
 }
@@ -216,7 +221,7 @@ header{
 }
 .linha-2{
     
-    background-color: #4ce19d;
+    background-color: #28118f;
     width: 230px;
     height: 2px;
     position: absolute;
